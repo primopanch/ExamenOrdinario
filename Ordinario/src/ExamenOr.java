@@ -2,9 +2,9 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 
-public class ExamenMultiplan extends JFrame {
+public class ExamenOr extends JFrame {
 
-    public ExamenMultiplan() {
+    public ExamenOr() {
         setTitle("Ordinario");
         setSize(900, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -96,7 +96,7 @@ public class ExamenMultiplan extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            ExamenMultiplan ventana = new ExamenMultiplan();
+            ExamenOr ventana = new ExamenOr();
             ventana.setVisible(true);
         });
     }
